@@ -155,7 +155,10 @@ function StarforceSimulator() {
     setIsEnhancing(false);
     setOpenResultDialog(true);
   };
-
+  const handleResetCost = () => {
+    setTotalCost(0);
+    setConsecutiveDowngradeFailures(0);
+  };
   // Handle reset when equipment is destroyed (triggered by "9元大法")
   const handleRestart = (resetTo) => {
     // Retrieve the scroll cost for the selected star level reset
@@ -274,6 +277,16 @@ function StarforceSimulator() {
               disabled={starLevel >= 20} // Disable if current star level is 20 or above
             >
               直接選擇星捲 (裝備不會爆掉，20星以上無法使用)
+            </Button>
+          </Box>
+
+          <Box sx={{ textAlign: "center", mt: 2 }}>
+            <Button
+              variant="outlined"
+              onClick={handleResetCost}
+              sx={{ width: "100%" }}
+            >
+              重置累計費用
             </Button>
           </Box>
           {isEnhancing && (
