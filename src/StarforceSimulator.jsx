@@ -145,7 +145,7 @@ function StarforceSimulator() {
     setStarLevel(resetTo);
     setConsecutiveFailures(0);
     setShowRestartDialog(false);
-    setResultMessage(`已重置裝備至 ${resetTo} 星，並扣除裝備價格與星捲成本。`);
+    setResultMessage(`已重置裝備至 ${resetTo} 星，並加上裝備價格與星捲成本。`);
     setOpenResultDialog(true);
   };
 
