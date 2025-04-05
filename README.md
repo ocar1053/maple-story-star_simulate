@@ -1,12 +1,14 @@
-# React + Vite
+## 📜 免責聲明 Disclaimer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+本網站與本 GitHub 專案僅為非商業用途之模擬器，根據《楓之谷》之星力強化機制所製作。  
+楓之谷為韓國 NEXON 公司開發之遊戲，台灣地區由遊戲橘子代理發行。  
+本模擬器純屬個人作品，未獲 NEXON、遊戲橘子或其他官方機構授權，與任何官方單位無任何關聯。  
+如有版權問題或希望下架，請聯絡：`ocar8951@gmail.com`。
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website and GitHub project are personal, non-commercial fan-made tools based on the Starforce enhancement system of the game *MapleStory*.  
+MapleStory is developed by NEXON Korea and published in Taiwan by Gamania.  
+This simulator is not affiliated with, endorsed by, or authorized by NEXON, Gamania, or any official party.  
+If you are the rights holder and wish to request removal, please contact: `ocar8951@gmail.com`.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

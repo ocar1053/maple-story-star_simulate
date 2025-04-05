@@ -408,7 +408,23 @@ function StarforceSimulator() {
           <Button onClick={() => setShowScrollDialog(false)}>取消</Button>
         </DialogActions>
       </Dialog>
+      <Box sx={{ mt: 4, textAlign: 'center', fontSize: '0.75rem', color: '#ccc' }}>
+        <Typography variant="body2" component="div" sx={{ mb: 1 }}>
+          本網站為《楓之谷》星力強化模擬器，僅供個人學術與非商業用途。<br />
+          楓之谷為 NEXON Korea 開發，台灣地區由遊戲橘子代理發行，本網站與上述公司無關亦未獲授權。<br />
+          如有侵權疑慮，請聯絡：ocar8951@gmail.com
+        </Typography>
+        <Typography variant="body2" component="div">
+          This site is a fan-made Starforce simulator for MapleStory, for academic and non-commercial use only. <br />
+          MapleStory is developed by NEXON Korea and published in Taiwan by Gamania. This site is not affiliated with or authorized by them. <br />
+          Contact for takedown requests: ocar8951@gmail.com
+        </Typography>
     </Box>
+    </Box>
+
+
+
+
   );
 }
 
